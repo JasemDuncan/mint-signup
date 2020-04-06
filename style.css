@@ -1,0 +1,55 @@
+html, body {
+    background-color: #eceef1;
+    font-family: Arial, sans-serif;
+    color: #505050;
+    box-sizing: border-box;
+}
+
+
+.signin {
+    font-size: 12px;
+    display: inline-block;
+    /* border: solid red; */
+    /* float: right; */
+    margin-left: 1043px;
+}
+
+.signinbutton {
+    /* border: solid red; */
+    width: 102px;
+    height: 34px;
+    background-color: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+.mainlogo {
+    /* border: solid red; */
+    width: 118px;
+    /* height: 35px; */
+    margin-left: 605px;
+    margin-top: 27px;
+    display: block;
+
+}
+
+.icons {
+    border: solid red;
+    padding-bottom: 10px;
+}
+
+.icons img {
+    padding-top: 7px;
+    border: solid red;
+
+}
+
+.icons label {
+    padding-bottom: 10px;
+    border: solid red;
+
+}
