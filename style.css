@@ -53,3 +53,16 @@ html, body {
     border: solid red;
 
 }
+
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #505050;
+}
+
+.footer a {
+    margin: 5px;
+    color: #505050;
+
+}
