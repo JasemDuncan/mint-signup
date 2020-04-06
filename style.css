@@ -104,6 +104,7 @@ html, body {
     width: 380px;
     height: 671px;
     padding: 30px;
+    /* white-space: 1px; */
 }
 
 
@@ -119,3 +120,106 @@ html, body {
     color: #505050;
 
 }
+
+/* changes */
+*{
+    /* border: 1px solid red; */
+}
+
+.CreateHeading{
+    font-size: 24px;
+    font-family: Helvetica;
+    font-weight: 50;
+}
+.TextCreateAccound{
+    color: #404040;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+
+}
+
+.LearnMore
+{
+    color: rgb(48,131,196);
+    margin: -60px 0px 0px 50px;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+ 
+
+
+}
+.lblEmail{
+    color: #404040;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.Email{
+    width: 320px;
+    height: 35px;
+    border-radius: 4px;
+    border-style: solid;
+    border: 1px solid rgb(185, 189, 193) ;
+}
+
+.lblPhone{
+    color: #404040;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.Phone{
+    width: 320px;
+    height: 35px;
+    border-radius: 4px;
+    border-style: solid;
+    border: 1px solid rgb(185, 189, 193) ;
+
+}
+
+.lblStandard{
+    color: #404040;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+.lblPassword{
+    color: #404040;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+.Password{
+    width: 320px;
+    height: 35px;
+    border-radius: 4px;
+    border-style: solid;
+    border: 1px solid rgb(185, 189, 193) ;
+}
+
+.CreateAccount{
+    width: 320px;
+    height: 34px;
+    background-color: #0077C5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: white;
+    float: center;
+
+}
+
+
+.Byclicking{
+    color: #404040;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 100;
+}
+}
+
+/* end */
