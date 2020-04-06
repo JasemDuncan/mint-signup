@@ -7,11 +7,11 @@ html, body {
 
 
 .signin {
+        /* border: solid red; */
     font-size: 12px;
     display: inline-block;
-    /* border: solid red; */
-    /* float: right; */
-    margin-left: 1043px;
+    position: relative;
+    margin-left: 1025px;
 }
 
 .signinbutton {
@@ -27,32 +27,77 @@ html, body {
     margin-top: 10px;
 }
 
+.section {
+    /* border: solid red; */
+
+}
+
 .mainlogo {
     /* border: solid red; */
     width: 118px;
-    /* height: 35px; */
+    position: relative;
     margin-left: 605px;
-    margin-top: 27px;
+    margin-top: 25px; 
+
     display: block;
+}
+
+
+.firsticon {
+    /* border: solid red; */
+
+    position: absolute;
+    margin-left: 505px;
+    margin-top: 10px;
 
 }
 
-.icons {
-    border: solid red;
-    padding-bottom: 10px;
+.mint {
+    /* border: solid red; */
+    position: absolute;
+    margin-bottom: 10px; 
+    margin-left: 535px;
+    display: inline-block;
 }
 
-.icons img {
-    padding-top: 7px;
-    border: solid red;
+.secondicon {
+    /* border: solid red; */
+
+    position: absolute;
+    margin-left: 590px;
+    margin-top: 10px;
 
 }
 
-.icons label {
-    padding-bottom: 10px;
-    border: solid red;
+.quickbooks {
+    /* border: solid red; */
+    position: absolute;
+    margin-bottom: 10px; 
+    margin-left: 620px;
+    display: inline-block;
+}
+
+.thirdicon {
+    /* border: solid red; */
+
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 10px;
 
 }
+
+.turbotax {
+    /* border: solid red; */
+    position: absolute;
+    margin-bottom: 10px; 
+    margin-left: 750px;
+    display: inline-block;
+}
+
+
+
+
+
 
 
 .footer {
