@@ -97,6 +97,14 @@ html, body {
 
 
 
+.fieldset {
+    background-color: white;
+    position: relative;
+    margin-top: 55px;
+    width: 380px;
+    height: 671px;
+    padding: 30px;
+}
 
 
 
