@@ -1,8 +1,65 @@
+/* CSS RESET FILE */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Table of Content: */
+
+/* Header Section */
+
+/* Form Section */
+
+/* Captcha Section */
+
+/* Footer Section */
+
+
 *{
     background-color: #eceef1;
     font-family: Arial, sans-serif;
     box-sizing: border-box;
-    /* border: 1px solid red; */
 }
 
 .Main
@@ -11,24 +68,20 @@
     flex-flow: column nowrap;
 }
 
-    .header{
-        /* background: #000; */
+/* Header Section */
+    .header {
         display: flex;
         justify-content: flex-end;
         align-items: center;
         height: 60px;
-        /* border: 1px solid red; */
-
     }
+
         .head{
             height: 40px;
             width: 195px;
-            /* padding: 10px 30px 0px 10px; */
             display: flex;
             align-items: center;
             flex-flow: column;
-            /* border: 1px solid red; */
-
         }
             .signin {
                 font-size: 12px;                         
@@ -37,17 +90,15 @@
                 font-size: 11px; 
                 width: 170px;
                 height: 20px;
-                /* border: 1px solid red;  */
                 display: flex;
                 justify-content: flex-end; 
                 align-items: flex-start;                   
             }
             
-            .signinLink{
+            .signinLink {
                 font-size: 11px;
                 height: 20px;
                 color: rgb(54, 140, 202);
-                /* border: 1px solid red; */
                 font-family: Helvetica;
                 width: 170px;
                 display: flex;
@@ -61,12 +112,11 @@
                 display: flex;
                 justify-content: center;
                 align-content: center;    
-                /* border: 1px solid red; */
                 height: 40px;
                 margin: 0px 30px 0px 0px;
             }
+
                 .signinbutton {
-                    /* border: solid red; */
                     width: 102px;
                     height: 34px;
                     background-color: #0077C5;
@@ -84,39 +134,36 @@
         height: 70px;
         align-items: center;
     }
+
         .logo{
-            /* background: #e6af2e; */
             height: 40px;
             width: 129px;
         }
         
     .Icons{
-        /* background: #000; */
         display: flex;
         justify-content: center;       
         height: 45px;
         
     }
-        .IconsText
-        {
-            /* background: red; */
+
+        .IconsText {
             height: 30px;
             width: 320px; 
             display: flex;                   
-            /* border: 1px solid green; */
             justify-content: space-between;
             align-items: flex-end;
         }
-            .mintIcon{
+
+            .mintIcon {
                 width: 75px;
                 height: 22px;
                 display: flex;
                 align-items: flex-end;
-                justify-content: space-around;
-                
+                justify-content: space-around; 
             }
 
-                .mintTextIcon{
+                .mintTextIcon {
                     font-family: Helvetica;
                     font-size: 18px;
                     width: 37px;
@@ -126,14 +173,15 @@
                     font-weight: 100;
                 }
 
-            .QuickbookIcon{
+            .QuickbookIcon {
                 width: 130px;
                 height: 22px;
                 display: flex;
                 align-items: flex-end;
                 justify-content: space-between;
             }
-                .QuickbooksTextIcon{
+
+                .QuickbooksTextIcon {
                     font-family: Helvetica;
                     font-size: 18px;
                     width: 100px;
@@ -143,14 +191,15 @@
                     font-weight: 200;
                 }
             
-            .turbotaxIcon{
+            .turbotaxIcon {
                 width: 105px;
                 height: 22px;
                 display: flex;
                 align-items: flex-end;
                 justify-content: space-between;
             }
-                .TurbotaxTextIcon{
+
+                .TurbotaxTextIcon {
                     font-family: Helvetica;
                     font-size: 18px;
                     width: 75px;
@@ -160,18 +209,16 @@
                     font-weight: 200;
                 }
 
-
-    .form{
-        /* background: #000; */
+/* Form Section */
+    .form {
         background: rgb(236,238,241);
         display: flex;
         justify-content: center;
         height: 620px;
     }
-        .formInside
-        {
+
+        .formInside {
             background: white;
-            /* background: red; */
             height: 685px;
             width: 380px;
             display: flex;
@@ -180,31 +227,33 @@
             border-radius: 2px;                        
             border: 1px solid rgb(192, 192, 192);
         }
-            .FormContent{
+
+            .FormContent {
                 width: 318px;
                 height: 622px;
-                /* background: green; */
                 display: flex;
                 flex-flow: column;
                 font-family: Helvetica;
                 color: rgb(67, 67, 67);
                 background: white;
             }
-                .one{
+
+                .one {
                     height: 34px;
                     display: flex;
                     justify-content: center;   
                     font-size: 24px;
                     align-items: center;
                     color: rgb(79, 79, 79);   
-                    /* font-weight: 100;               */
                     background: white;
                 }
-                .two{
+
+                .two {
                     height: 20px;
                     background: white;
                 }
-                .three{
+
+                .three {
                     height: 16px;
                     display: flex;
                     justify-content: center;
@@ -212,24 +261,27 @@
                     font-weight: 100;
                     background: white;
                 }
-                .four{
+
+                .four {
                     display: flex;
                     justify-content: center;
                     background: white;
-
                 }
-                    .LearnMore{
+
+                    .LearnMore {
                         height: 18px;
                         font-size: 12px;
                         color: rgb(27, 119, 190);
                         background: white;
                         text-decoration: none;
                     }
-                .five{
+
+                .five {
                     height: 15px;
                     background: white;
                 }
-                .six{
+
+                .six {
                     height: 28px;
                     display: flex;
                     justify-content: left;
@@ -238,12 +290,13 @@
                     color: rgb(71, 71, 71);
                     background: white;
                 }
-                .seven{
+
+                .seven {
                     height: 40px;
                     background: white;
-
                 }
-                    .txtEmail{
+
+                    .txtEmail {
                         height: 32px;
                         width: 315px;
                         border-radius: 4px;
@@ -251,15 +304,18 @@
                         border: 1px solid rgb(185, 189, 193) ;
                         background: white;
                     }
-                .eight{
+
+                .eight {
                     height: 19px;
                     background: white;
                 }
-                .nine{
+
+                .nine {
                     height: 9px;
                     background: white;
                 }
-                .ten{
+
+                .ten {
                     height: 28px;
                     display: flex;
                     justify-content: left;
@@ -268,11 +324,13 @@
                     color: rgb(71, 71, 71);
                     background: white;
                 }
-                .eleven{
+
+                .eleven {
                     height: 36px;
                     background: white;
                 }
-                    .txtPhone{
+
+                    .txtPhone {
                         height: 32px;
                         width: 315px;
                         border-radius: 4px;
@@ -280,7 +338,8 @@
                         border: 1px solid rgb(185, 189, 193);
                         background: white;
                     }
-                .twelve{
+
+                .twelve {
                     height: 20px;
                     display: flex;
                     justify-content: left;
@@ -290,11 +349,13 @@
                     background: white;
                     align-items: center;
                 }
-                .thirteen{
+
+                .thirteen {
                     height: 33px;
                     background: white;
                 }
-                .fourteen{
+
+                .fourteen {
                     height: 28px;
                     display: flex;
                     justify-content: left;
@@ -303,11 +364,13 @@
                     color: rgb(71, 71, 71);
                     background: white;
                 }
-                .fifteen{
+
+                .fifteen {
                     height: 40px;
                     background: white;
                 }
-                    .txtPassword{
+
+                    .txtPassword {
                         height: 32px;
                         width: 315px;
                         border-radius: 4px;                        
@@ -315,15 +378,17 @@
                         background: white;
                     }
 
-                .sixteen{
+                .sixteen {
                     height: 25px;
                     background: white;
                 }
-                .seventeen{
+
+                .seventeen {
                     height: 57px;
                     background: white;
                 }
-                    .btnCreateAccount{
+
+                    .btnCreateAccount {
                         height: 45px;
                         width: 315px;
                         border-radius: 4px;
@@ -331,13 +396,14 @@
                         color: white;
                         border: 1px solid rgb(84, 84, 84);
                         font-size: 14px;
-                        
                     }
-                .eighteen{
+
+                .eighteen {
                     height: 26px;
                     background: white;
                 }
-                .nineteen{
+
+                .nineteen {
                     height: 23px;                  
                     display: flex;
                     justify-content: center;   
@@ -348,7 +414,7 @@
                     background: white;
                 }
                     
-                .twenty{
+                .twenty {
                     height: 21px;
                     display: flex;
                     justify-content: center;   
@@ -358,7 +424,8 @@
                     font-style: italic;
                     background: white;
                 }
-                .twentyone{
+
+                .twentyone {
                     height: 22px;
                     display: flex;
                     justify-content: center;   
@@ -368,21 +435,24 @@
                     font-style: italic;
                     background: white;
                 }
-                    .Terms{
+
+                    .Terms {
                         font-size: 12px;
                         color: rgb(27, 119, 190);
                         text-decoration: none;
                         background: white;
                     }
+
+
+/* Captcha Section */
     .Invisible{
-        /* background: #000; */
         background: rgb(236,238,241);
         display: flex;
         justify-content: center;
         height: 55px;
     }
-        .Captcha
-        {
+
+        .Captcha {
             background: rgb(236,238,241);
             height: 54px;
             width: 380px;
@@ -391,18 +461,14 @@
             align-items: center;
             border: 1px solid rgb(192, 192, 192);
         }
-            .InvisibleCaptcha{
-                
-                /* background: green; */
-                
-            }
             
-            .InvisibleCaptcha>p{
+            .InvisibleCaptcha>p {
                 color: rgb(135, 138, 144);
                 font-family: Helvetica;
                 font-size: 10px;
             }
-            p>a{
+
+            p > a {
                 font-family: Helvetica;
                 font-size: 10px;
                 width: 37px;
@@ -412,16 +478,16 @@
                 font-weight: 100;
             }
 
-    .footer{
+ /* Footer Section */
+    .footer {
         background: #000;
         display: flex;
         justify-content: center;
         height: 100px;
         background: rgb(236,238,241);
     }
-        .foot
-        {
-            /* background:red; */
+
+        .foot {
             height: 80px;
             width: 1000px;  
             display: flex;
@@ -430,7 +496,8 @@
             font-family: Helvetica;
             color: rgb(67, 67, 67);                   
         }
-            .Legal{
+
+            .Legal {
                 display: flex;
                 justify-content: center;
                 align-items: flex-end;
@@ -439,7 +506,8 @@
                 font-weight: 100;
                 word-spacing: 15px;
             }
-            .IntuitInc{
+             
+            .IntuitInc {
                 display: flex;
                 justify-content: center;
                 height: 20px;
@@ -455,4 +523,3 @@
                 font-size: 12px;
                 font-weight: 100;
             }
-/* end */
