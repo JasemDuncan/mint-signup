@@ -215,11 +215,16 @@
                 .four{
                     display: flex;
                     justify-content: center;
-                    height: 18px;
-                    font-size: 12px;
-                    color: rgb(27, 119, 190);
                     background: white;
+
                 }
+                    .LearnMore{
+                        height: 18px;
+                        font-size: 12px;
+                        color: rgb(27, 119, 190);
+                        background: white;
+                        text-decoration: none;
+                    }
                 .five{
                     height: 15px;
                     background: white;
