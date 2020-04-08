@@ -14,7 +14,7 @@ The website is a clone of Mint Sign Up Page.
 
 ## Live Demo
 
-[Live Demo Link](https://ahmedtohamy01.github.io/signup.html)
+[Live Demo Link](https://ahmedtohamy01.github.io/index.html)
 
 
 ## Authors
