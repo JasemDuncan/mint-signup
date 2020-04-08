@@ -209,13 +209,22 @@ table {
   float: right;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.iconLock {
+  margin-right: 5px;
+}
+
+.signinbutton > span {
+  background-color: #0077c5;
 }
 
 .mainContent {
   display: flex;
   justify-content: center;
   height: 70px;
-  align-items: center;
 }
 
 .logo {
@@ -478,6 +487,12 @@ table {
   color: white;
   border: 1px solid rgb(84, 84, 84);
   font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btnCreateAccount > span {
+  background-color: #0077c5;
 }
 
 .eighteen {
@@ -585,6 +600,13 @@ p > a {
   font-size: 12px;
   font-weight: 100;
   word-spacing: 15px;
+}
+
+.legalButton {
+  margin-right: 18px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: rgb(67, 67, 67);
 }
 
 .IntuitInc {
